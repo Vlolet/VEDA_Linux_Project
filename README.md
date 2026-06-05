@@ -2,6 +2,17 @@
 
 Ubuntu 기반의 클라이언트에서 TCP 통신을 통해 Raspberry Pi 4의 하드웨어를 원격 제어하는 시스템입니다. **데몬(Daemon) 프로세스**, **동적 라이브러리(.so)** 를 이용한 핫스왑(Hot-swap), 그리고 **멀티스레딩** 기반의 안정적인 장치 제어 기능을 제공합니다.
 
+## Based on
+- ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)   
+- ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
+- ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+## Preview
+<div align="center">
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/b1cb9dbc-1b0b-4266-98e5-8f27f81c0adc" style="max-height: 400px; object-fit: contain; margin-right: 10px;" />
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/bfc3ef1b-0468-4393-b729-b90cbbdde4f8" style="max-height: 400px; object-fit: contain;" />
+</div>
+
 ## 📌 Features
 
 *   **Network**: TCP/IPv4 기반의 Server-Client 구조
